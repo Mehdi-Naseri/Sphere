@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.naseri.androidapps.sphere.Activities.MainActivity">
+
+<!--    <android.support.v7.widget.toolbar
+        android:id="@+id/main_toolbat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        />-->
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/main_button_Contacts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contacts" />
+
+            <Button
+                android:id="@+id/main_button_Sms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sms" />
+
+            <Button
+                android:id="@+id/main_button_Gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery" />
+
+            <Button
+                android:id="@+id/main_button_Camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Camera" />
+
+            <Button
+                android:id="@+id/main_buttonGps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GPS" />
+
+            <Button
+                android:id="@+id/button_Map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Map" />
+
+            <Button
+                android:id="@+id/main_buttonEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"/>
+
+            <Button
+                android:id="@+id/main_button_CacheStorage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cach Storage"
+                android:onClick="main_button_CacheStorage_Click"/>
+
+            <Button
+                android:id="@+id/main_button_InternalStorage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Internal Storage"
+                android:onClick="main_button_InternalStorage_Click"/>
+
+            <Button
+                android:id="@+id/main_button_ExternalStorage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="External Storage"
+                android:onClick="main_button_ExternalStorage_Click"/>
+
+            <Button
+                android:id="@+id/main_button_Crud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CRUD"
+                android:onClick="main_button_Crud_Click"/>
+
+            <Button
+                android:id="@+id/main_button_TextRead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Text Read" />
+
+            <Button
+                android:id="@+id/main_button_SpeechtoText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Text to Speech" />
+
+            <Button
+                android:id="@+id/main_button_About"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="main_button_About_Click"
+                android:text="About" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_Gallery"
+        android:title="Gallery" />
+    <item android:id="@+id/menu_CacheStorage"
+        android:title="Cache Storage" />
+    <item android:id="@+id/menu_InternalStorage"
+        android:title="Internal Storage" />
+    <item android:id="@+id/menu_ExternalStorage"
+        android:title="External Storage" />
+    <item android:id="@+id/menu_Students_CRUD"
+        android:title="Students CRUD" />
+    <item android:id="@+id/menu_About"
+        android:title="About" />
+
+    <item
+        android:title=""
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_white_24dp_1x"
+        app:showAsAction="always"
+        />
+
+</menu>

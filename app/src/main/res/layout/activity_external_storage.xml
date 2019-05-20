@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.naseri.androidapps.sphere.Activities.ExternalStorageActivity">
+
+    <EditText android:id="@+id/etExternalPrivate" android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Your External Pvt Data"/>
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Save Data to External Private" android:onClick="saveToExternalPrivate"/>
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Load From External Private" android:onClick="loadFromExternalPrivate"/>
+    <TextView android:id="@+id/txvExternalPrivate" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="file content" android:layout_marginLeft="10dp" android:textColor="@android:color/black" android:textSize="18sp"/>
+    <EditText android:id="@+id/etExternalPublic" android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Your External Public Data" android:layout_marginTop="50dp"/>
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Save Data to External Public" android:onClick="saveToExternalPublic"/>
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Load From External Public" android:onClick="loadFromExternalPublic"/>
+    <TextView android:id="@+id/txvExternalPublic" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="file content" android:layout_marginLeft="10dp" android:textColor="@android:color/black" android:textSize="18sp"/>
+
+</LinearLayout>
